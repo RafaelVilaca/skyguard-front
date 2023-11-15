@@ -1,0 +1,23 @@
+.card {
+    border-radius: 10px;
+    border: outset;
+    padding: 10px;
+    background: mintcream;
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-weight: 400;
+    max-width: 415px;
+}
+  
+@media (max-width: 768px) {
+    .card {
+        width: 92% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card {
+        width: 46%;
+    }
+}
